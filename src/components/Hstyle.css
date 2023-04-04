@@ -1,0 +1,68 @@
+.container{
+ display: grid;
+  gap: 30px;
+  grid-template-columns: auto auto auto auto;
+  padding: 15px;
+  
+}
+.grid-container{
+    background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1000px){
+    .container{
+        display: grid;
+         gap: 30px;
+         grid-template-columns: auto auto auto ;
+         padding: 15px;
+         
+       }
+       .grid-container{
+           background-color: rgba(255, 255, 255, 0.8);
+         border: 1px solid rgba(0, 0, 0, 0.8);
+         padding: 20px;
+         font-size: 20px;
+         text-align: center;
+         border-radius: 10px;
+       }
+}
+@media screen and (max-width: 800px){
+    .container{
+        display: grid;
+         gap: 30px;
+         grid-template-columns: auto auto ;
+         padding: 15px;
+         
+       }
+       .grid-container{
+           background-color: rgba(255, 255, 255, 0.8);
+         border: 1px solid rgba(0, 0, 0, 0.8);
+         padding: 20px;
+         font-size: 20px;
+         text-align: center;
+         border-radius: 10px;
+       }
+}
+@media screen and (max-width: 550px){
+    .container{
+        display: grid;
+         gap: 30px;
+         grid-template-columns: auto  ;
+         padding: 15px;
+         
+       }
+       .grid-container{
+           background-color: rgba(255, 255, 255, 0.8);
+         border: 1px solid rgba(0, 0, 0, 0.8);
+         padding: 20px;
+         font-size: 20px;
+         text-align: center;
+         border-radius: 10px;
+       }
+}
